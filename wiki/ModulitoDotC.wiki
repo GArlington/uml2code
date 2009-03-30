@@ -1,0 +1,23 @@
+#what is modulito.c
+
+= Introduction =
+
+Modulito.c is a file that should be able to do the basic work between the code and the xml definition.
+
+
+= Details =
+
+Modulito.c should have this methods and vars:
+<code>
+int major_version, minor_version;</code><code>
+struct info {</code><code>
+lang_name;</code><code>
+ext;</code><code>
+}</code><code>
+</code><code>
+void reset()</code><code>
+int ref_uml( char `*`path )</code><code>
+int include_file( char `*`path )</code><code>
+int include_dir( char `*`path )</code><code>
+int code2uml()</code><code>
+int uml2code()</code><code>
